@@ -1,0 +1,28 @@
+{
+	"code": 0,
+	"data": [
+		{
+			"utime": 1588991292223,
+			"ctime": 1584962190495,
+			"startTime": 1588991292221,
+			"sort": 1584962190495,
+			"endTime": 4102416000000,
+			"id": "5e789a8edb4123961b55a336",
+			"content": {
+				"lists": [
+					{
+						"icon": "",
+						"name": "限时抢购",
+						"link_url": "https://m.xiaomiyoupin.com/w/secbuy?_rt=weex&activity_id=5"
+					},
+					{
+						"icon": "",
+						"name": "企业采购",
+						"link_url": "https://m.xiaomiyoupin.com/w/mifans?_rt=weex&pageid=3154"
+					}
+				]
+			}
+		}
+	],
+	"message": "ok"
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+html{
+	font-size: 31.25vw;
+}
+body{
+	font-size: 16px;
+	display: flex;
+/*	box-sizing: border-box;*/
+	flex-direction: column;
+
+}
+html,body{
+	height: 100%;
+}
+
+header{
+	height: 0.44rem;
+	background: #0dc441;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+header a {
+	height: 0.24rem;
+	width: 0.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+header a:nth-child(1){
+	background: #64d985;
+	border-radius: 0.12rem 0 0 0.12rem;
+}
+
+header a:nth-child(2){
+	background: #3dd067;
+	border-radius: 0 0.12rem 0.12rem 0;
+}
+
+.nav{
+	display: flex;
+	height: 0.35rem;
+	border-bottom: 0.01rem solid #d9d9d9;
+	
+}
+.nav a {
+	padding:0 0.21rem;
+	height: 0.35rem;
+	padding-top: 0.025rem;
+	/*加这个padding是为了保证文本是垂直居中的，因为加了一个下边框*/
+	display: flex;
+	color:#666666;
+	align-items: center;
+	border-bottom: 0.025rem solid rgba(0,0,0,0);
+	
+}
+
+.nav a:nth-child(1){
+	color: #0dc441;
+	border-bottom: 0.025rem solid #0dc441;
+}
+/*content*/
+/*main{
+	flex: 1;
+	overflow: auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	不能直接给main加这个，因为这个main是为了撑起中间部分的
+}*/
+
+/*main .content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+main .content article{
+	width: 1.57rem;
+}
+main .content article img {
+	width: 100%;
+}
+/*main .content{
+	display: flex;
+	flex-wrap: wrap;
+}
+main article{
+	
+	width: 1.28rem;
+}
+main article img {
+	width: 100%;
+}
+*/
+main{
+	background:#fff;
+	flex:1;
+	/*overflow:auto;*/
+}
+main .content{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+main .content article{
+	width:1.57rem;
+	border:1px solid #999;
+	margin-top:0.04rem;
+}
+main .content article img{
+	width:100%;
+	height:1.56rem;
+	vertical-align: middle;
+}
+main .content article aside{
+	height: 0.3rem;
+	display: flex;
+	padding-left: 0.11rem;
+	align-items: center;
+	font-size: 0.12rem;
+	border-top:1px solid #999;
+
+}
+footer{
+	height:0.44rem;
+	background:#ffffff;
+	display: flex;
+	
+	padding:0 0.11rem ;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer aside{
+	display: flex;
+	flex-direction: column;
+	/*position: relative;*/
+	justify-content: center;
+	align-items: center;
+}
+footer aside span{
+	font-size: 0.11rem;
+}
+footer aside .iconfont{
+	font-size: 0.16rem;
+}
+
+footer aside img{
+	height: 0.53rem;
+	width: 0.53rem;
+	position: absolute;
+	bottom:0;
+}

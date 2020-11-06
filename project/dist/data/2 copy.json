@@ -1,0 +1,45 @@
+[
+	{
+	  "name": "有品推荐",
+	  "sort": 1564021632474,
+	  "id": "5d3912da9bbe3147969a4ad1",
+	  "type": 2,
+	  "images":"images/banner1.jpg"
+	},
+	{
+	  "name": "家用电器",
+	  "sort": 1564121384360,
+	  "id": "5d3a99289bbe31fc2aa39581",
+	  "type": 0,
+	  "images":"images/banner2.jpg"
+	},
+	{
+	  "name": "居家餐厨",
+	  "sort": 1564121397771,
+	  "id": "5d693ed920b012d07802acc2",
+	  "type": 0,
+	  "images":"images/banner3.jpg"
+	},
+	{
+	  "name": "电视影音",
+	  "sort": 1564121408060,
+	  "id": "5d3a9a209bbe31fc2aa39586",
+	  "type": 0,
+	  "images":"images/banner4.jpg"
+	},
+	{
+	  "name": "家具家装",
+	  "sort": 1564121428938,
+	  "id": "5d3a994b9bbe31fc2aa39584",
+	  "type": 0,
+	  "images":"images/banner5.jpg"
+	},
+	{
+	  "name": "智能家庭",
+	  "sort": 1564121632816,
+	  "id": "5d3a99359bbe31fc2aa39582",
+	  "type": 0,
+	  "images":"images/banner6.jpg"
+	}
+  ]
+  

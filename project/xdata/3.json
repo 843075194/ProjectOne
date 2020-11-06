@@ -1,0 +1,118 @@
+{
+	"code": 0,
+	"message": "ok",
+	"lid": "1604457180.473156448",
+	"tid": "8c36b96e789d04221e58e8bfd288a7a0-112782-1604457180473-68847",
+	"result": {
+		"hotWords": {
+			"code": 0,
+			"message": "",
+			"description": "",
+			"data": {
+				"hot_item": [
+					{
+						"text": "被子",
+						"color": "#F1F9EA",
+						"url": "https://www.xiaomiyoupin.com/detail?gid=112758",
+						"iid": "被子_2_1_1_0"
+					},
+					{
+						"text": "洗衣机",
+						"color": "#FFF9FA",
+						"url": "http://youpin.mi.com/detail?gid=102495",
+						"iid": "洗衣机_2_1_2_102495"
+					},
+					{
+						"text": "咖啡机",
+						"color": "#FBEEFB",
+						"url": "http://youpin.mi.com/detail?gid=101374",
+						"iid": "咖啡机_2_1_3_101374"
+					},
+					{
+						"text": "AI音箱",
+						"color": "#ECF8FA",
+						"url": "http://youpin.mi.com/detail?gid=100328",
+						"iid": "AI音箱_2_1_4_100328"
+					},
+					{
+						"text": "料理机",
+						"color": "#FEF4FB",
+						"url": "http://youpin.mi.com/detail?gid=756",
+						"iid": "料理机_2_1_5_756"
+					},
+					{
+						"text": "电视",
+						"color": "#FBEBEB",
+						"url": "http://youpin.mi.com/detail?gid=101315",
+						"iid": "电视_2_1_6_101315"
+					},
+					{
+						"text": "保温杯",
+						"color": "#FFE0D9",
+						"url": "http://youpin.mi.com/detail?gid=544",
+						"iid": "保温杯_2_1_7_544"
+					},
+					{
+						"text": "",
+						"color": "",
+						"url": "",
+						"iid": "_1_1_0_0"
+					},
+					{
+						"text": "",
+						"color": "",
+						"url": "",
+						"iid": "_1_1_0_0"
+					},
+					{
+						"text": "",
+						"color": "",
+						"url": "",
+						"iid": "_1_1_0_0"
+					}
+				],
+				"filter": [
+					{
+						"keyword": "优惠券",
+						"url": "https://home.mi.com/app/shop/content?id=nd31510393cf6f8b1&needlogin=1",
+						"iid": ""
+					},
+					{
+						"keyword": "@邀请码",
+						"url": "https://home.mi.com/shop/activity?cid=nf779d039d30f3351",
+						"iid": ""
+					},
+					{
+						"keyword": "有品市集",
+						"url": "https://m.youpin.mi.com/w/wactivity?_rt=weex&pageid=68",
+						"iid": ""
+					},
+					{
+						"keyword": "小米众筹",
+						"url": "https://m.youpin.mi.com/w/crowdfunding?_rt=weex&pageid=5",
+						"iid": ""
+					},
+					{
+						"keyword": "众筹",
+						"url": "https://m.youpin.mi.com/w/crowdfunding?_rt=weex&pageid=5",
+						"iid": ""
+					},
+					{
+						"keyword": "homekit",
+						"url": "https://m.youpin.mi.com/app/shop/content?id=m6a4fb0399985d081",
+						"iid": ""
+					}
+				]
+			},
+			"available": true
+		},
+		"topWords": {
+			"code": 0,
+			"message": "",
+			"description": "",
+			"data": null,
+			"available": true
+		}
+	},
+	"timestamp": 1604457180
+}

@@ -1,0 +1,779 @@
+{
+    "code": 0,
+    "data": {
+        "children": [
+            {
+                "displayType": 0,
+                "children": [
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "手机通讯"
+                                        ],
+                                        "category3": [
+                                            "手机"
+                                        ],
+                                        "category1": [
+                                            "手机"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3913429bbe3147969a4ad2",
+                        "sort": 1564390847610,
+                        "id": "5f4f72347593718ecda8ac9d",
+                        "smallImgCard": {
+                            "badge": "https://img.youpin.mi-img.com/editor1/dab584635fdec171fe97bf1f836f8ecb.png?w=60&h=60",
+                            "img": "https://img.youpin.mi-img.com/shopmain/bf8b952f3f5b9c8139622e197aa68ea2.png?w=800&h=800",
+                            "name": "手机"
+                        },
+                        "queryId": "4940443f695c12a06d9b9de0e1827e2a"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "智能设备"
+                                        ],
+                                        "category3": [
+                                            "智能手表"
+                                        ],
+                                        "category1": [
+                                            "智能数码"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3913429bbe3147969a4ad2",
+                        "sort": 1564393012565,
+                        "id": "5d3ebe349bbe31ee08b9a59d",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/shopmain/f2e98138467dc2e8b480f20342292543.png?w=800&h=800",
+                            "name": "智能手表"
+                        },
+                        "queryId": "64ffcf980f87f53b0e4214d869bf325e"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "影音娱乐"
+                                        ],
+                                        "category3": [
+                                            "耳机/耳麦"
+                                        ],
+                                        "category1": [
+                                            "智能数码"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3913429bbe3147969a4ad2",
+                        "sort": 1564393054117,
+                        "id": "5d3fafca9bbe31ee08b9a791",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/800_pic/e039b19116ad505b76795d8cdd775001.png",
+                            "name": "耳机"
+                        },
+                        "queryId": "77c6698377265381bfbdd04460f96ab0"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "大家电"
+                                        ],
+                                        "category3": [
+                                            "平板电视"
+                                        ],
+                                        "category1": [
+                                            "家用电器"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3913429bbe3147969a4ad2",
+                        "sort": 1564454791041,
+                        "id": "5d3faf879bbe31ee08b9a790",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/800_pic/879eb39dff714a56bc9a822398808a4b.png",
+                            "name": "电视机"
+                        },
+                        "queryId": "9559d059262af3b4b6e7daaebbd9a5e1"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "生活电器"
+                                        ],
+                                        "category3": [
+                                            "饮水机"
+                                        ],
+                                        "category1": [
+                                            "家用电器"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3913429bbe3147969a4ad2",
+                        "sort": 1564454858332,
+                        "id": "5d3ebe5e9bbe31ee08b9a59e",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/shopmain/9b50355102b2ca5a41c0ebb07a72f2a6.png?w=800&h=800",
+                            "name": "饮水机"
+                        },
+                        "queryId": "09ecffbf7e715e37cf5e67bd2fc79457"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "灯饰照明"
+                                        ],
+                                        "category3": [
+                                            "台灯"
+                                        ],
+                                        "category1": [
+                                            "家装建材"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3913429bbe3147969a4ad2",
+                        "sort": 1565266770257,
+                        "id": "5d4c13524b76899096385fa8",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/800_pic/d65d4bb629f5c1dc8c81faf89b7dffb9.png",
+                            "name": "灯具"
+                        },
+                        "queryId": "afd7f02065e9fa5bed73edff8c2d7eae"
+                    }
+                ],
+                "name": "为你推荐",
+                "id": "5d3913429bbe3147969a4ad2",
+                "type": 2
+            },
+            {
+                "displayType": 0,
+                "children": [
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "whiteGids": {
+                                            "gids": [
+                                                137155,
+                                                134959,
+                                                137154,
+                                                134223,
+                                                114647,
+                                                125523,
+                                                125211,
+                                                127772,
+                                                132310,
+                                                111233,
+                                                103705,
+                                                135305,
+                                                137143,
+                                                104261,
+                                                120487,
+                                                123598,
+                                                116179,
+                                                131738,
+                                                117998,
+                                                104198,
+                                                104002,
+                                                104127,
+                                                111031,
+                                                126307,
+                                                116864,
+                                                102464,
+                                                136419,
+                                                108295,
+                                                116046,
+                                                133987,
+                                                119598,
+                                                106525,
+                                                104026,
+                                                123534,
+                                                126771,
+                                                116024,
+                                                101364,
+                                                110490,
+                                                118321,
+                                                115508,
+                                                132590,
+                                                124624,
+                                                122909,
+                                                115287,
+                                                116724,
+                                                105357,
+                                                534,
+                                                136560,
+                                                109426,
+                                                110564,
+                                                106624,
+                                                133520,
+                                                136097,
+                                                113615,
+                                                114484,
+                                                115512,
+                                                132981,
+                                                135930,
+                                                135927,
+                                                100942,
+                                                103050,
+                                                109424,
+                                                100317,
+                                                103802,
+                                                101476,
+                                                119091,
+                                                100617,
+                                                102967,
+                                                119100,
+                                                104256,
+                                                110290,
+                                                108558,
+                                                116001,
+                                                119182,
+                                                121796,
+                                                134323,
+                                                119095,
+                                                116640,
+                                                113683,
+                                                121787,
+                                                116870,
+                                                115205,
+                                                136308,
+                                                110891,
+                                                104687,
+                                                101984,
+                                                111283,
+                                                104852,
+                                                101468,
+                                                112963,
+                                                100329,
+                                                103763,
+                                                105368,
+                                                102730,
+                                                133812,
+                                                103575,
+                                                105783,
+                                                109446,
+                                                121633,
+                                                124219
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3ec5599bbe31ee08b9a5a7",
+                        "sort": 1573650497296,
+                        "id": "5ed871ac20b012ed56099d89",
+                        "smallImgCard": {
+                            "badge": "https://img.youpin.mi-img.com/editor1/dab584635fdec171fe97bf1f836f8ecb.png?w=60&h=60",
+                            "img": "https://img.youpin.mi-img.com/800_pic/f2423f629653215d9d55436205997cea.png",
+                            "name": "回购榜单"
+                        },
+                        "queryId": "edfa0b78755d827f044fdcda4bcf12a2"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "内衣"
+                                        ],
+                                        "category3": [
+                                            "保暖套装"
+                                        ],
+                                        "category1": [
+                                            "服饰内衣"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "女装"
+                                        ],
+                                        "category3": [
+                                            "加绒裤"
+                                        ],
+                                        "category1": [
+                                            "服饰内衣"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "身体护理"
+                                        ],
+                                        "category3": [
+                                            "护手霜"
+                                        ],
+                                        "category1": [
+                                            "美妆护肤"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "服饰配件"
+                                        ],
+                                        "category3": [
+                                            "围巾/手套/帽子套装"
+                                        ],
+                                        "category1": [
+                                            "服饰内衣"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "面部护肤"
+                                        ],
+                                        "category3": [
+                                            "乳液/面霜",
+                                            "润唇膏",
+                                            "面部精华"
+                                        ],
+                                        "category1": [
+                                            "美妆护肤"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "男装"
+                                        ],
+                                        "category3": [
+                                            "加绒裤",
+                                            "棉服",
+                                            "羊毛衫",
+                                            "羊绒衫",
+                                            "羽绒服",
+                                            "针织衫"
+                                        ],
+                                        "category1": [
+                                            "服饰内衣"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "大家电"
+                                        ],
+                                        "category3": [
+                                            "烘干机"
+                                        ],
+                                        "category1": [
+                                            "家用电器"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "生活电器"
+                                        ],
+                                        "category3": [
+                                            "加湿器",
+                                            "取暖电器",
+                                            "毛球修剪器",
+                                            "空气净化器",
+                                            "饮水机"
+                                        ],
+                                        "category1": [
+                                            "家用电器"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "床上用品"
+                                        ],
+                                        "category3": [
+                                            "四件套",
+                                            "水暖毯",
+                                            "电热毯",
+                                            "羽绒/羽毛被"
+                                        ],
+                                        "category1": [
+                                            "家纺"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "时尚女鞋"
+                                        ],
+                                        "category3": [
+                                            "雪地靴"
+                                        ],
+                                        "category1": [
+                                            "鞋靴"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "流行男鞋"
+                                        ],
+                                        "category3": [
+                                            "男靴"
+                                        ],
+                                        "category1": [
+                                            "鞋靴"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3ec5599bbe31ee08b9a5a7",
+                        "sort": 1578971967246,
+                        "id": "5e3be52132aacd992e2aa9f5",
+                        "smallImgCard": {
+                            "badge": "https://img.youpin.mi-img.com/editor1/677b8fabb7f762ccfb33f866d4abc66e.png?w=60&h=60",
+                            "img": "https://img.youpin.mi-img.com/shopmain/f2f4751fb9058eafc9fca9c812bae49d.png?w=800&h=800",
+                            "name": "秋冬焕新"
+                        },
+                        "queryId": "0a9e783abf7e9a4a1eb52514eb9967cb"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "生活电器"
+                                        ],
+                                        "category3": [
+                                            "其它生活电器",
+                                            "净水器",
+                                            "加湿器",
+                                            "取暖电器",
+                                            "吸尘器",
+                                            "干衣机",
+                                            "扫地机器人",
+                                            "挂烫机/熨斗",
+                                            "清洁机",
+                                            "电话机",
+                                            "电风扇",
+                                            "空气净化器",
+                                            "除螨仪",
+                                            "饮水机"
+                                        ],
+                                        "category1": [
+                                            "家用电器"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3ec5599bbe31ee08b9a5a7",
+                        "sort": 1579163907615,
+                        "id": "5f73ef77fc70b2f09ba545d9",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/shopmain/96f7bd6473ffcf78933fe88a283def17.png?w=800&h=800",
+                            "name": "生活电器"
+                        },
+                        "queryId": "be1ddaedaa869b0cada3b9550c8a24bc"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "whiteGids": {
+                                            "gids": [
+                                                114095,
+                                                116694,
+                                                116693,
+                                                134021,
+                                                124054,
+                                                109893,
+                                                118750,
+                                                116826,
+                                                116234,
+                                                119385,
+                                                116536,
+                                                117917,
+                                                109886,
+                                                112011,
+                                                134026,
+                                                115882,
+                                                115761,
+                                                112009,
+                                                118716,
+                                                133236,
+                                                130443,
+                                                116640,
+                                                120593,
+                                                119162,
+                                                112375,
+                                                118088,
+                                                116535,
+                                                119290,
+                                                133238,
+                                                118715,
+                                                133383,
+                                                116169,
+                                                133316,
+                                                133319,
+                                                118748,
+                                                117715,
+                                                122309,
+                                                131844,
+                                                133496,
+                                                118611,
+                                                118327,
+                                                116108,
+                                                109888,
+                                                119396,
+                                                117994,
+                                                112536,
+                                                109904,
+                                                126545,
+                                                134177,
+                                                131571,
+                                                129132,
+                                                122658,
+                                                133318,
+                                                119231,
+                                                133831,
+                                                118392,
+                                                126188,
+                                                118657,
+                                                119969,
+                                                116249,
+                                                118746,
+                                                133514,
+                                                117070,
+                                                113922,
+                                                116649,
+                                                119389,
+                                                117421,
+                                                127560,
+                                                129455,
+                                                125488,
+                                                125883,
+                                                118389,
+                                                117556,
+                                                124599,
+                                                133512,
+                                                126316,
+                                                125048,
+                                                125912,
+                                                133591,
+                                                132357,
+                                                119384,
+                                                133515,
+                                                118752,
+                                                131570,
+                                                116101,
+                                                133328,
+                                                126929,
+                                                119289,
+                                                116286,
+                                                125918,
+                                                123093,
+                                                125528,
+                                                130332,
+                                                118833,
+                                                118613,
+                                                129456,
+                                                126731,
+                                                133322,
+                                                115880
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3ec5599bbe31ee08b9a5a7",
+                        "sort": 1580983376035,
+                        "id": "5d3fb8e59bbe31ee08b9a7a2",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/shopmain/0c798c0bafc1b3bceb2c4b2c0b46692f.png?w=800&h=800",
+                            "name": "全球健康"
+                        },
+                        "queryId": "40282295e19775e7d754a33ef9a8d5e1"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "厨房卫浴"
+                                        ],
+                                        "category3": [
+                                            "净水软水",
+                                            "厨卫挂件",
+                                            "厨卫配件",
+                                            "地漏",
+                                            "垃圾处理器",
+                                            "干手器",
+                                            "排气扇/换气扇设备",
+                                            "智能坐便器",
+                                            "智能马桶盖",
+                                            "橱柜",
+                                            "水槽",
+                                            "沐浴桶",
+                                            "浴室柜",
+                                            "浴缸",
+                                            "浴霸",
+                                            "淋浴房",
+                                            "淋浴花洒",
+                                            "特殊商品",
+                                            "陶瓷件组套",
+                                            "马桶",
+                                            "龙头",
+                                            "过滤装置"
+                                        ],
+                                        "category1": [
+                                            "家装建材"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "灯饰照明"
+                                        ],
+                                        "category3": [
+                                            "LED灯源",
+                                            "吊灯",
+                                            "吸顶灯"
+                                        ],
+                                        "category1": [
+                                            "家装建材"
+                                        ]
+                                    },
+                                    {
+                                        "category2": [
+                                            "阳台家具"
+                                        ],
+                                        "category3": [
+                                            "智能晾衣机",
+                                            "晾衣架"
+                                        ],
+                                        "category1": [
+                                            "家装建材"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3ec5599bbe31ee08b9a5a7",
+                        "sort": 1580983428434,
+                        "id": "5e3be48420b012c226102f48",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/shopmain/c0119c621cfd08d14bd47d6254f5af41.png?w=800&h=800",
+                            "name": "厨卫家装"
+                        },
+                        "queryId": "556619b34d3115b23b44bf116799813e"
+                    },
+                    {
+                        "jumpType": 1,
+                        "displayType": 0,
+                        "query": [
+                            {
+                                "rule": [
+                                    {
+                                        "category2": [
+                                            "健身训练"
+                                        ],
+                                        "category3": [
+                                            "仰卧板/收腹机",
+                                            "倒立机",
+                                            "健腹轮",
+                                            "健身房器械定制",
+                                            "健身路径",
+                                            "其他器械",
+                                            "划船机",
+                                            "动感单车",
+                                            "哑铃",
+                                            "律动机",
+                                            "杠铃",
+                                            "椭圆机",
+                                            "甩脂机",
+                                            "跑步机",
+                                            "跳绳",
+                                            "踏步机"
+                                        ],
+                                        "category1": [
+                                            "户外运动"
+                                        ]
+                                    }
+                                ],
+                                "queryType": 1
+                            }
+                        ],
+                        "pid": "5d3ec5599bbe31ee08b9a5a7",
+                        "sort": 1580983585876,
+                        "id": "5e6f3d9b759371eeb36043ef",
+                        "smallImgCard": {
+                            "img": "https://img.youpin.mi-img.com/shopmain/008dfe6e50dab09ef7c0c733877c123a.png?w=800&h=800",
+                            "name": "运动健身"
+                        },
+                        "queryId": "a7a2de69a29f9599cd12f9f9529114d2"
+                    }
+                ],
+                "name": "精选专区",
+                "id": "5d3ec5599bbe31ee08b9a5a7",
+                "type": 0
+            }
+        ],
+        "name": "有品推荐",
+        "bannerUrl": "https://m.xiaomiyoupin.com/w/universal?_rt=weex&pageid=4528",
+        "banner": "https://img.youpin.mi-img.com/youpinoper/4443232ec46d13d6f2ed846d9f0126fb.png",
+        "id": "5d3912da9bbe3147969a4ad1",
+        "type": 2
+    },
+    "message": "ok"
+}
