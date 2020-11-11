@@ -1,0 +1,23 @@
+[
+	{
+	  "name": "上新精选",
+	  "images":"images/ia_100000000085.png"
+	},
+	{
+		"name": "小米众筹",
+		"images":"images/ia_100000000087.png"
+	  },
+	{
+	  "name": "有品秒杀",
+	  "images":"images/ia_100000000089.png"
+	},  
+	{
+		"name": "热销榜单",
+		"images":"images/ia_100000000091.png"
+	},
+	{
+	  "name": "小米自营",
+	  "images":"images/ia_100000000093.png"
+	}
+]
+  

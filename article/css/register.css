@@ -1,0 +1,49 @@
+body, dd, div, dl, dt, h1, h2, h3, h4, h5, h6, li, ol, p, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, input, table, tr, td, fieldset, legend, img {
+  box-sizing: border-box; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  outline: none; }
+
+img, fieldset {
+  vertical-align: middle;
+  border: 0; }
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #333; }
+
+b, strong, i, em, h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px; }
+
+.clearfn:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.header_tit {
+  width: 52px;
+  height: 50px;
+  margin: 20px auto; }
+
+.panel-heading {
+  width: 400px; }
+  .panel-heading span {
+    text-align: center;
+    padding-left: 168px; }

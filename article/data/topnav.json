@@ -1,0 +1,223 @@
+[
+	{
+		"title": "小米手机",
+		"childs": [
+			{
+				"id": "1",
+				"span": "新品",
+				"img": "../images/02.png",
+				"a": "小米CC9",
+				"i": "1799元起"
+			},
+			{
+				"id": "2",
+				"span": "新品",
+				"img": "../images/03.png",
+				"a": "小米CC9e",
+				"i": "1299元起"
+			},
+			{
+				"id": "3",
+				"span": "新品",
+				"img": "../images/320.png",
+				"a": "小米CC9美图定制版",
+				"i": "2599元"
+			},
+			{
+				"id": "4",
+				"img": "../images/mi9-320.png",
+				"a": "小米9",
+				"i": "1799元起"
+			},
+			{
+				"id": "5",
+				"img": "../images/888.jpg",
+				"a": "小米8 屏幕指纹版",
+				"i": "1799元起"
+			},
+			{
+				"id": "6",
+				"img": "../images/mix.png",
+				"a": "小米MIX 3",
+				"i": "2999元"
+			}
+		]
+	},
+	{
+		"title": "Redmi 红米",
+		"childs": [
+			{
+				"id": "7",
+				"span": "新品",
+				"img": "../images/red.jpg",
+				"a": "Redmi K20 Pro",
+				"i": "2499元起"
+			},
+			{
+				"id": "8",
+				"span": "新品",
+				"img": "../images/lanse.jpg",
+				"a": "Redmi K20",
+				"i": "1999元起"
+			},
+			{
+				"id": "9",
+				"span": "新品",
+				"img": "../images/black.jpg",
+				"a": "Redmi 7A",
+				"i": "549元起"
+			},
+			{
+				"id": "10",
+				"img": "../images/redmi.jpg",
+				"a": "Redmi Note7 Pro",
+				"i": "1399元"
+			},
+			{
+				"id": "11",
+				"img": "../images/note7320-220.png",
+				"a": "Redmi Note7",
+				"i": "999元起"
+			},
+			{
+				"id": "12",
+				"img": "../images/lanse.jpg",
+				"a": "Redmi 7",
+				"i": "699元起"
+			}
+		]
+	},
+	{
+		"title": "电视",
+		"childs": [
+			{
+				"id": "13",
+				"span": "新品",
+				"img": "../images/bihuadianshi.jpg",
+				"a": "小米壁画电视 65英寸",
+				"i": "6999元"
+			},
+			{
+				"id": "14",
+				"span": "新品",
+				"img": "../images/quanmianping55A.jpg",
+				"a": "小米全面屏电视E55A",
+				"i": "2099元"
+			},
+			{
+				"id": "15",
+				"span": "热卖",
+				"img": "../images/32.png",
+				"a": "小米电视4A 32英寸",
+				"i": "769元"
+			},
+			{
+				"id": "16",
+				"span": "热卖",
+				"img": "../images/4A-55.jpg",
+				"a": "小米电视4A-55英寸",
+				"i": "1999元"
+			},
+			{
+				"id": "17",
+				"span": "热卖",
+				"img": "../images/4a653202201.jpg",
+				"a": "小米电视4A 65英寸",
+				"i": "2999元"
+			},
+			{
+				"id": "18",
+				"img": "../images/475toutu.png",
+				"a": "查看全部",
+				"i": "小米电视"
+			}
+		]
+	},
+	{
+		"title": "笔记本",
+		"childs": [
+			{
+				"id": "19",
+				"span": "新品",
+				"img": "../images/RedmiBook.png",
+				"a": "RedmiBook 14",
+				"i": "3999元"
+			},
+			{
+				"id": "20",
+				"span": "新品",
+				"img": "../images/12.5yinsetoubu.png",
+				"a": "小米笔记本Air 12.5",
+				"i": "3599元"
+			},
+			{
+				"id": "21",
+				"span": "新品",
+				"img": "../images/13.3huise.png",
+				"a": "小米笔记本Air 13.3",
+				"i": "4999元"
+			},
+			{
+				"id": "22",
+				"img": "../images/rubyheise.png",
+				"a": "小米笔记本 15.6",
+				"i": "2899元起"
+			},
+			{
+				"id": "23",
+				"img": "../images/WechatIMG603.png",
+				"a": "小米电视4A 65英寸",
+				"i": "2999元"
+			},
+			{
+				"id": "24",
+				"img": "../images/xinbijiben.png",
+				"a": "查看全部",
+				"i": "小米电视"
+			}
+		]
+	},
+	{
+		"title": "家电",
+		"childs": [
+			{
+				"id": "25",
+				"span": "热卖",
+				"img": "../images/yijinengxiaokongtiao.png",
+				"a": "米家互联网空调(一级能效)",
+				"i": "2199元"
+			},
+			{
+				"id": "26",
+				"span": "热卖",
+				"img": "../images/xihongxin.png",
+				"a": "米家互联网洗烘一体机 10kg",
+				"i": "1899元"
+			},
+			{
+				"id": "27",
+				"span": "热卖",
+				"img": "../images/redmixiyiji.jpg",
+				"a": "Redmi全自动波轮洗衣机1A",
+				"i": "699元"
+			},
+			{
+				"id": "28",
+				"img": "../images/xiaomijingshuiqi.jpg",
+				"a": "小米净水器",
+				"i": "1799元"
+			},
+			{
+				"id": "29",
+				"img": "../images/saodijiqiren320-220.jpg",
+				"a": "米家扫地机器人",
+				"i": "1699元"
+			},
+			{
+				"id": "30",
+				"img": "../images/yanzao.jpg",
+				"a": "烟灶套装",
+				"i": "1999元"
+			}
+		]
+	}]
