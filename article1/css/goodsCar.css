@@ -400,6 +400,7 @@ b, strong, i, em, h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   background-color: skyblue;
   display: none; }
+ 
 
 .xm-recommend .xm-recommend-notice {
   position: absolute;
@@ -446,3 +447,13 @@ b, strong, i, em, h1, h2, h3, h4, h5, h6 {
 
 .J_xm-recommend-list {
   width: 200px; }
+
+  .m-card{
+    position: relative;
+  }
+  .m-card .number{
+    position: absolute;
+    top: -4px;
+    right: -16px;
+    font-size: 16px;
+  }

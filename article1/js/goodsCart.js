@@ -2,6 +2,14 @@ define([
     'jquery',
     'jquery-cookie'
 ], function ($) {
+
+    function header() {
+        $(".top").hover(function () {
+            $(this).siblings('.bottom').stop().slideToggle(500);
+        })
+    }
+    header();
+
     function download() {
         $.ajax({
             method: "get",
@@ -51,6 +59,7 @@ define([
 
         //下面小图实现加入购物车效果
         $('#J_miRecommendBox .xm-recommend ul').on('click', '.xm-recommend-tips .btn', function () {
+            
             var id = $(this).attr('id');
             console.log(id);
             var first = $.cookie("goods") == null ? true : false;
@@ -358,6 +367,7 @@ define([
             }
         })
         $('.amount-sum em').html(count);
+        $('.number').html(count)
         $('.price-sum em').html(total.toFixed(2));
     }
 

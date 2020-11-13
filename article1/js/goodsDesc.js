@@ -1,9 +1,9 @@
-define([
+define(['parabola',
     'detail',
     'slide',
     'jquery',
     'jquery-cookie'
-], function (detail, slide, $) {
+], function (parabola,detail, slide, $) {
 
     function header() {
         $(".top").hover(function () {
@@ -303,7 +303,7 @@ define([
             console.log($.cookie("goods"));
             sc_num()
             // $("#input").val(cookieArr[index].num);
-            
+            ballMove(this);
         })
         //这个地方是直接点击输入框进行修改数量的时候做的操作
         $('#containerbox').on('change','#input',function () { 
@@ -322,7 +322,7 @@ define([
                     })
                 }
             }
-
+            sc_num()
         })
         
 
@@ -336,6 +336,7 @@ define([
             for (let index = 0; index < cookieArr.length; index++) {
                 if (cookieArr[index].id == id) {
                     $("#input").val(cookieArr[index].num);
+                    $('.number').html(cookieArr[index].num);
                     $.cookie("goods", JSON.stringify(cookieArr), {
                         expires: 7
                     });
@@ -367,6 +368,34 @@ define([
         })
     }
 
+    //抛物线
+    function ballMove(node) {
+        $("#ball").css({
+          display: "block",
+          left: $(node).offset().left,
+          top: $(node).offset().top,
+        });
+        var x = $(".m-card>a").offset().left - $(node).offset().left ;
+        var y = $(".m-card>a").offset().top - $(node).offset().top;
+        console.log(x,y);
+        console.log($(".m-card>a").offset().left);
+        console.log($(node).offset().left);
+        
+        
+        //声明抛物线对象
+        var bool = new Parabola({
+          el: "#ball",
+          offset: [x, y],
+          duration: 500,
+          curvature: 0.0005,
+          callback: function () {
+            $("#ball").hide();
+          },
+        });
+    
+        bool.start();
+      }
+    
 
 
 

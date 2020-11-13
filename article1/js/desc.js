@@ -8,10 +8,16 @@ require.config({
         slide:"slide",
         detail:"detail",
         goodsDesc:"goodsDesc",
-        index:"index"
+        index:"index",
+        parabola:'parabola'
     },
     shim:{
-        "jquery-cookie":["jquery"]
+        //设置依赖关系  先引入jquery.js  然后在隐去jquery-cookie
+        "jquery-cookie": ["jquery"],
+        //声明当前模块不遵从AMD
+        "parabola": {
+			exports: "_"
+		}
     }
 });
 
@@ -26,7 +32,6 @@ require(["goodsList","slide","detail","goodsDesc","index"],function (goodsList,s
     goodsDesc.download();
     goodsDesc.bannermain();
     goodsDesc.shopping();
-    index.header();
     //goodsDesc.add();
     //detail.magnifyingglass();
 })
