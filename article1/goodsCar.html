@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <meta name="description"
+        content="小米有品是小米旗下精品生活电商平台，也是小米“新零售”战略的重要一环。依托小米生态链体系，延续小米的“爆品”模式，致力于将“小米式的性价比”延伸到更广泛的家居生活领域。">
+    <meta name="keywords"
+        content="小米旗下精品生活电商平台,小米旗下精品生活电商,小米电商,小米电商平台,小米精品电商,小米有品,米家有品,精品电商,小米商城,生活电商,小米众筹,小米手机系列小米Note 3,小米5X,小米MIX 2,品质家居,日用,食品,服饰,婴童,箱包">
+    <title>小米有品</title>
+    <link rel="stylesheet" href="css/desc.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/goodsCar.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="iconfont1/iconfont.css">
+    <link rel="stylesheet" href="iconfont2/iconfont.css">
+    <script src="js/require.js" async='true' defer data-main="js/cart"></script>
+</head>
+
+<body>
+    <!-- sitetop  顶部菜单栏 -->
+    <div id="sitetop">
+        <div class="container">
+            <div class="fr">
+                <div class="f1 ">
+                    <div class="login">
+                        <a href="./login.html">登陆</a>
+                        <a href="./register.html">注册</a>
+                    </div>
+                </div>
+                <span class="line"></span>
+                <div class="f1">
+                    <a href="">帮助中心</a>
+                </div>
+                <span class="line"></span>
+                <div class="f1">
+                    <a href="">
+                        <span class="iconfont">&#xe620;</span>
+                        下载 APP
+                    </a>
+                </div>
+                <span class="line"></span>
+                <div class="f1">
+                    <div class="top">
+                        <a href="">资质证照/协议规则</a>
+                        <i class="iconfont">&#xe60b;</i>
+                    </div>
+                    <div class="bottom">
+                        <ul class="site-nav">
+                            <li><a href="">资质证照</a></li>
+                            <li><a href="">协议规则</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header 小米有品 搜索那一行 -->
+    <div class="m-header">
+        <div class="">
+            <div class="container1">
+                <div class="clearfn">
+                    <div class="left"></div>
+
+                    <div class="nav-part">
+                        <!--   <div class="nav-arrow-container">
+                            <span>分类</span>
+                            <span class="iconfont">&#xe62c;</span>
+                            <div class="nav-container-box">
+                                <div class="nav-container">
+                                    <ul class="nav-list">
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <!-- 顶部导航栏 -->
+                    <ul class="tab-list">
+                        <li><a href="">限时抢购</a></li>
+                        <li><a href="">企业采购</a></li>
+                    </ul>
+                    <div class="m-search">
+                        <div class="search-form">
+                            <a href="javascript:;" class="iconfont">&#xe610;</a>
+                            <div>
+                                <input type="text" placeholder="搜一搜">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-card">
+                        <a href="javascript:;" class="iconfont">&#xf0179;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 每个导航栏对应的下拉栏 -->
+            <div id="J_navMenu" class="header-nav-menu header-nav-menu-active slide-up">
+                <div class="container">
+                    <!-- 往这里面插数据 -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 中间内容模块connect -->
+    <div class="express-append">
+        <div class="container">
+            <div class="m-secondary-navigator">
+                <span><a href="./index.html">首页</a></span>
+                <span>></span>
+                <span><a href="./goodsDesc.html?product_id=10000150">购物车</a></span>
+            </div>
+        </div>
+
+        <div class="c-container" id="c-container">
+            <div class="w">
+                <div class="cart-filter-bar">
+                    <em>全部商品</em>
+                </div>
+                <!-- 购物车主要核心区域 -->
+                <div class="cart-warp">
+
+                    <!-- 头部全选模块 -->
+                    <div class="cart-thead">
+                        <div class="t-checkbox">
+                            <input type="checkbox" name=""  id="" class="checkall"> 全选
+                        </div>
+                        <div class="t-goods">商品信息</div>
+                        <div class="t-price">单价</div>
+                        <div class="t-num">数量</div>
+                        <div class="t-sum">金额</div>
+                        <div class="t-action">操作</div>
+                    </div>
+
+                    <!-- 商品详细模块 -->
+                    <div class="cart-item-list" id="cart-item-list">
+                        <!-- <div class="cart-item check-cart-item">
+                            <div class="p-checkbox">
+                                <input type="checkbox" name="" id="" checked class="j-checkbox">
+                            </div>
+                            <div class="p-goods">
+                                <div class="p-img">
+                                    <img src="upload/p1.jpg" alt="">
+                                </div>
+                                <div class="p-msg">【5本26.8元】经典儿童文学彩图青少版八十天环游地球中学生语文教学大纲</div>
+                            </div>
+                            <div class="p-price">￥12.60</div>
+                            <div class="p-num">
+                                <div class="quantity-form">
+                                    <a href="javascript:;" class="decrement">-</a>
+                                    <input type="text" class="itxt" value="1">
+                                    <a href="javascript:;" class="increment">+</a>
+                                </div>
+                            </div>
+                            <div class="p-sum">￥12.60</div>
+                            <div class="p-action"><a href="javascript:;">删除</a></div>
+                        </div> -->
+                        <!-- 第二条 -->
+                        <!-- <div class="cart-item">
+                            <div class="p-checkbox">
+                                <input type="checkbox" name="" id="" class="j-checkbox">
+                            </div>
+                            <div class="p-goods">
+                                <div class="p-img">
+                                    <img src="upload/p2.jpg" alt="">
+                                </div>
+                                <div class="p-msg">【2000张贴纸】贴纸书 3-6岁 贴画儿童 贴画书全套12册 贴画 贴纸儿童 汽</div>
+                            </div>
+                            <div class="p-price">￥24.80</div>
+                            
+                            <div class="p-num">
+                                <div class="quantity-form">
+                                    <a href="javascript:;" class="decrement">-</a>
+                                    <input type="text" class="itxt" value="1">
+                                    <a href="javascript:;" class="increment">+</a>
+                                </div>
+                            </div>
+                            <div class="p-sum">￥24.80</div>
+                            <div class="p-action"><a href="javascript:;">删除</a></div>
+                        </div> -->
+                        <!-- 第三条 -->
+                        <!-- <div class="cart-item">
+                            <div class="p-checkbox">
+                                <input type="checkbox" name="" id="" class="j-checkbox">
+                            </div>
+                            <div class="p-goods">
+                                <div class="p-img">
+                                    <img src="upload/p3.jpg" alt="">
+                                </div>
+                                <div class="p-msg">唐诗三百首+成语故事全2册 一年级课外书 精装注音儿童版 小学生二三年级课外阅读书籍</div>
+                            </div>
+                            <div class="p-price">￥29.80</div>
+                            <div class="p-num">
+                                <div class="quantity-form">
+                                    <a href="javascript:;" class="decrement">-</a>
+                                    <input type="text" class="itxt" value="1">
+                                    <a href="javascript:;" class="increment">+</a>
+                                </div>
+                            </div>
+                            <div class="p-sum">￥29.80</div>
+                            <div class="p-action"><a href="javascript:;">删除</a></div>
+                        </div> -->
+                    </div>
+
+                    <!-- 结算模块 -->
+                    <div class="cart-floatbar">
+                        <!-- 全选框 -->
+                        <div class="select-all">
+                            <input type="checkbox" name="" id="" class="checkall">全选
+                        </div>
+                        <!-- 删除选中的商品 -->
+                        <div class="operation">
+                            <!-- 单删 -->
+                            <a href="javascript:;" class="remove-batch"> 删除选中的商品</a>
+                            <!-- 全删 -->
+                            <a href="javascript:;" class="clear-all">清理购物车</a>
+                        </div>
+                        <!-- 右侧的按钮 -->
+                        <div class="toolbar-right">
+                            <div class="amount-sum">已经选<em>0</em>件商品</div>
+                            <div class="price-sum">合计：<em>￥00.00</em>元</div>
+                            <div class="btn-area">去结算</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class='cart-recommend container' id='J_miRecommendBox'>
+        <h2 class='xm-recommend-title'>
+            <span>下面还有这些商品来看看</span>
+        </h2>
+        <div class='xm-recommend'>
+            <ul class='row clearfix'>
+                <!-- <li class="J_xm-recommend-list span4">    
+                    <dl> 
+                        <dt> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                <img src="//i1.mifile.cn/a1/pms_1551867177.2478190!140x140.jpg" srcset="//i1.mifile.cn/a1/pms_1551867177.2478190!280x280.jpg  2x" alt="小米净水器1A（厨下式）"> 
+                            </a> 
+                        </dt> 
+                        <dd class="xm-recommend-name"> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                小米净水器1A（厨下式） 
+                            </a> 
+                        </dd> 
+                        <dd class="xm-recommend-price">1399元</dd> 
+                        <dd class="xm-recommend-tips">   4182人好评    
+                            <a href="//item.mi.com/cart/add/2181300007-0-1" style="display: none;">加入购物车</a>  
+                        </dd> 
+                        <dd class="xm-recommend-notice">
+
+                        </dd> 
+                    </dl>  
+                </li>
+                <li class="J_xm-recommend-list span4">    
+                    <dl> 
+                        <dt> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                <img src="//i1.mifile.cn/a1/pms_1551867177.2478190!140x140.jpg" srcset="//i1.mifile.cn/a1/pms_1551867177.2478190!280x280.jpg  2x" alt="小米净水器1A（厨下式）"> 
+                            </a> 
+                        </dt> 
+                        <dd class="xm-recommend-name"> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                小米净水器1A（厨下式） 
+                            </a> 
+                        </dd> 
+                        <dd class="xm-recommend-price">1399元</dd> 
+                        <dd class="xm-recommend-tips">   4182人好评    
+                            <a href="//item.mi.com/cart/add/2181300007-0-1" style="display: none;">加入购物车</a>  
+                        </dd> 
+                        <dd class="xm-recommend-notice">
+
+                        </dd> 
+                    </dl>  
+                </li>
+                <li class="J_xm-recommend-list span4">    
+                    <dl> 
+                        <dt> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                <img src="//i1.mifile.cn/a1/pms_1551867177.2478190!140x140.jpg" srcset="//i1.mifile.cn/a1/pms_1551867177.2478190!280x280.jpg  2x" alt="小米净水器1A（厨下式）"> 
+                            </a> 
+                        </dt> 
+                        <dd class="xm-recommend-name"> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                小米净水器1A（厨下式） 
+                            </a> 
+                        </dd> 
+                        <dd class="xm-recommend-price">1399元</dd> 
+                        <dd class="xm-recommend-tips">   4182人好评    
+                            <a href="//item.mi.com/cart/add/2181300007-0-1" style="display: none;">加入购物车</a>  
+                        </dd> 
+                        <dd class="xm-recommend-notice">
+
+                        </dd> 
+                    </dl>  
+                </li>
+                <li class="J_xm-recommend-list span4">    
+                    <dl> 
+                        <dt> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                <img src="//i1.mifile.cn/a1/pms_1551867177.2478190!140x140.jpg" srcset="//i1.mifile.cn/a1/pms_1551867177.2478190!280x280.jpg  2x" alt="小米净水器1A（厨下式）"> 
+                            </a> 
+                        </dt> 
+                        <dd class="xm-recommend-name"> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                小米净水器1A（厨下式） 
+                            </a> 
+                        </dd> 
+                        <dd class="xm-recommend-price">1399元</dd> 
+                        <dd class="xm-recommend-tips">   4182人好评    
+                            <a href="//item.mi.com/cart/add/2181300007-0-1" style="display: none;">加入购物车</a>  
+                        </dd> 
+                        <dd class="xm-recommend-notice">
+
+                        </dd> 
+                    </dl>  
+                </li>
+                <li class="J_xm-recommend-list span4">    
+                    <dl> 
+                        <dt> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                <img src="//i1.mifile.cn/a1/pms_1551867177.2478190!140x140.jpg" srcset="//i1.mifile.cn/a1/pms_1551867177.2478190!280x280.jpg  2x" alt="小米净水器1A（厨下式）"> 
+                            </a> 
+                        </dt> 
+                        <dd class="xm-recommend-name"> 
+                            <a href="//item.mi.com/1181300007.html"> 
+                                小米净水器1A（厨下式） 
+                            </a> 
+                        </dd> 
+                        <dd class="xm-recommend-price">1399元</dd> 
+                        <dd class="xm-recommend-tips">   4182人好评    
+                            <a href="//item.mi.com/cart/add/2181300007-0-1" style="display: none;">加入购物车</a>  
+                        </dd> 
+                        <dd class="xm-recommend-notice">
+
+                        </dd> 
+                    </dl>  
+                </li> -->
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 中间内容模块connect -->
+
+
+    <div class="m-footer">
+        <div class="container clearfn">
+            <div class="f1 m-f-logo">
+                <img src="images/ia_100000031.png" alt="">
+            </div>
+            <div class="f-info fr">
+                <div class="f-icons">
+                    <a href="">
+                        <img src="images/ia_100000026.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <p class="footer-item">
+                        <span>©xiaomiyoupin.com</span>
+                        <span>苏B2-20180351 苏ICP备18025642号-1</span>
+                        <img src="images/record.png" alt="">
+                        <a href="">苏公网安备 32010502010244号</a>
+                    </p>
+                    <p class="footer-item">
+                        <span>企业名称：有品信息科技有限公司</span>
+                        <a href="">关于我们</a>
+                        <a href="">入驻有品</a>
+                        <a href="">知识产权侵权投诉</a>
+                    </p>
+                    <p class="footer-item">
+                        <a href="">
+                            小米有品平台运营主体变更公告
+                        </a>
+                    </p>
+                    <p class="footer-item">
+                        <span>南京市建邺区白龙江东街8号3栋9层</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
