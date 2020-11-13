@@ -193,18 +193,23 @@ define(['parabola',
         var aBigbox = null;//获取大图片右边大图片的盒子
         var aBigTmgs = null;//获取大图片右边的大图片
         var timer = null; //定时器，轮播图
+        
         $("#containerbox .product_intro").on('mouseover', '.preview_list .list_item .abc', function () {
             iNow = $(this).index();
             bannertab();
             //return false;  如果这里是a标签的话，需要加这句
         })
-
-        timer = setInterval(function () {
-            iNow++;
-            bannertab();
-            aBigbox.hide();
-        }, 2000)
-
+        
+        // if ($('#containerbox ').find('.preview_img>img').size() == 1) {
+        //     clearInterval(timer)
+        // } else {
+        //     timer = setInterval(function () {
+        //             iNow++;
+        //             bannertab();
+        //             aBigbox.hide();
+        //         }, 2000)
+        // }
+        
         //轮播图的切换
         function bannertab() {
             // console.log(1);
@@ -220,7 +225,8 @@ define(['parabola',
             if (!aBigTmgs) {
                 aBigTmgs = $('#containerbox').find('.preview_img .big .bigImg')
             }
-
+            // console.log(aImgs.size());
+            
             if (aImgs.size() == 1) {
                 clearInterval(timer)
             } else {
@@ -241,6 +247,7 @@ define(['parabola',
             clearInterval(timer);
         })
         $('#containerbox').on('mouseleave', '.preview_wrap .preview_img,.arrow_prev,.arrow_next,.list_item .abc', function () {
+            aBigbox.hide();
             timer = setInterval(function () {
                 iNow++;
                 bannertab();

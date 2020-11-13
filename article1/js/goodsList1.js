@@ -82,7 +82,6 @@ define(["jquery", "jquery-cookie"], function ($) {
                                 </div>
                    `).appendTo(row.find('.row'));
                 }
-
               },
             error:function (msg) {
                 console.log(msg);

@@ -126,7 +126,7 @@ define(["jquery", "jquery-cookie"], function ($) {
         var iNow = 0; //当前显示的图片的下标
         var aImgs = null; // 记录图片
         var aBtns = null; //记录小圆圈
-
+        
         var timer = setInterval(function () {
             iNow++;
             tab();
