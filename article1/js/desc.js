@@ -7,7 +7,8 @@ require.config({
         goodsList:"goodsList",
         slide:"slide",
         detail:"detail",
-        goodsDesc:"goodsDesc"
+        goodsDesc:"goodsDesc",
+        index:"index"
     },
     shim:{
         "jquery-cookie":["jquery"]
@@ -16,7 +17,7 @@ require.config({
 
 
 
-require(["goodsList","slide","detail","goodsDesc"],function (goodsList,slide,detail,goodsDesc) {  
+require(["goodsList","slide","detail","goodsDesc","index"],function (goodsList,slide,detail,goodsDesc,index) {  
     goodsList.topNavDownload();
     goodsList.topNavTab();
     goodsList.download();
@@ -25,6 +26,7 @@ require(["goodsList","slide","detail","goodsDesc"],function (goodsList,slide,det
     goodsDesc.download();
     goodsDesc.bannermain();
     goodsDesc.shopping();
+    index.header();
     //goodsDesc.add();
     //detail.magnifyingglass();
 })

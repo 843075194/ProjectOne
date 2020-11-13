@@ -5,6 +5,13 @@ define([
     'jquery-cookie'
 ], function (detail, slide, $) {
 
+    function header() {
+        $(".top").hover(function () {
+            $(this).siblings('.bottom').stop().slideToggle(500);
+        })
+    }
+    header();
+    
     //这个函数是为了获取地址后面内容的
     function valueByName(search, name) {
         //name1=value1&name2=value2&name3=value3 
@@ -296,6 +303,7 @@ define([
             console.log($.cookie("goods"));
             sc_num()
             // $("#input").val(cookieArr[index].num);
+            
         })
         //这个地方是直接点击输入框进行修改数量的时候做的操作
         $('#containerbox').on('change','#input',function () { 
@@ -308,6 +316,7 @@ define([
                     //这个地方给当前商品在cookie里的数量进行修改
                     //先拿到要修改的值
                     cookieArr[i].num = $(this).val();
+                    //$('.number').html($(this).val());
                     $.cookie("goods", JSON.stringify(cookieArr), {
                         expires: 7
                     })
@@ -315,6 +324,7 @@ define([
             }
 
         })
+        
 
     }
 
@@ -354,7 +364,6 @@ define([
                 // $("#input").val(cookieArr[index].num);
             }
             sc_num();
-
         })
     }
 
