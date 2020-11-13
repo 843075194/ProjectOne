@@ -247,7 +247,7 @@ define(['parabola',
             clearInterval(timer);
         })
         $('#containerbox').on('mouseleave', '.preview_wrap .preview_img,.arrow_prev,.arrow_next,.list_item .abc', function () {
-            aBigbox.hide();
+            //aBigbox.hide();
             timer = setInterval(function () {
                 iNow++;
                 bannertab();
