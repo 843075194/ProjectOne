@@ -90,6 +90,8 @@ define([
                 })
                 console.log($.cookie("goods"));
             }
+            //在这个地方调用加载数据的函数
+            
             loadCarData();
         })
 
@@ -126,7 +128,6 @@ define([
                         var newArr = arr1.concat(arr2);
                         resolve(newArr);
                         console.log(newArr);
-
                     },
                     error: function (msg) {
                         console.log(msg);
@@ -137,7 +138,7 @@ define([
             //上面这一行表示在执行完function(res){}这个函数后
             //他会返回return new Promise这个函数
             //然后new Promise这个函数就和then方法连起来了
-            console.log(arr);
+            console.log(arr);  //19条json数据都拿到了
             //现在这个arr是所有商品的信息，list页的和当前页的
             //现在需要通过已经加入购物车的商品，找出这些数据
             //看看哪一些被加载到购物车里了
@@ -202,13 +203,50 @@ define([
                 }
                 $(".cart-item-list").html(str)
                 //这个地方for循环结束，所有商品根据cookie加载进来
-                checkFunc();
+               checkFunc();
                isCheckAll();
             }
           
         })
     }
-   
+    //加减写在checkFunc函数外面好些，因为上面加入购物车的时候数量已经++了
+    $(".cart-item-list").on('click', '.increment,.decrement', function () {
+        var num = $(this).siblings(".itxt").val();
+        var id = $(this).parents('.cart-item').attr('id');
+        //你要找到当前点击的这个按钮对应的父元素才行
+        // var sum = num * price;
+        // $(this).parents('.cart-item').find('.p-sum').html(sum);
+        var cookieStr = $.cookie("goods");
+        var cookieArr = JSON.parse(cookieStr);
+        //[{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+        for (let i = 0; i < cookieArr.length; i++) {
+            if (cookieArr[i].id == id) {
+                //找到当前的 + 进行操作
+                if (this.className == 'increment') {
+                    cookieArr[i].num++;
+                    //给商品数量赋值
+                    $(this).siblings('.itxt').val(cookieArr[i].num)
+                    //取单价
+                    var price = $(this).parents('.cart-item').find('.p-price').html().substring(1);
+                    //给小计赋值 ，保留两位小数
+                    $(this).parents('.cart-item').find('.p-sum').html("￥" + (cookieArr[i].num * price).toFixed(2));
+                } else {
+                    cookieArr[i].num == 1 ? alert("数量最少为1") : cookieArr[i].num--;
+                    //给商品数量赋值
+                    $(this).siblings('.itxt').val(cookieArr[i].num)
+                    //取单价
+                    var price = $(this).parents('.cart-item').find('.p-price').html().substring(1);
+                     //给小计赋值 ，保留两位小数
+                    $(this).parents('.cart-item').find('.p-sum').html("￥" + (cookieArr[i].num * price).toFixed(2));
+                }
+                $.cookie("goods", JSON.stringify(cookieArr), {
+                    expires: 7
+                })
+            }
+        }
+        // 这里for循环结束
+        isCheckAll()
+    })
     
     //全选按钮  和  单选按钮添加点击
     function checkFunc() {
@@ -232,43 +270,7 @@ define([
 
         //增减商品数量模块  首先声明一个变量，获取当前的商品数量  
         //这个地方是 +  和  -   两个小按钮的操作
-        $(".cart-item-list").on('click', '.increment,.decrement', function () {
-            var num = $(this).siblings(".itxt").val();
-            var id = $(this).parents('.cart-item').attr('id');
-            //你要找到当前点击的这个按钮对应的父元素才行
-            // var sum = num * price;
-            // $(this).parents('.cart-item').find('.p-sum').html(sum);
-            var cookieStr = $.cookie("goods");
-            var cookieArr = JSON.parse(cookieStr);
-            //[{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
-            for (let i = 0; i < cookieArr.length; i++) {
-                if (cookieArr[i].id == id) {
-                    //找到当前的 + 进行操作
-                    if (this.className == 'increment') {
-                        cookieArr[i].num++;
-                        //给商品数量赋值
-                        $(this).siblings('.itxt').val(cookieArr[i].num)
-                        //取单价
-                        var price = $(this).parents('.cart-item').find('.p-price').html().substring(1);
-                        //给小计赋值 ，保留两位小数
-                        $(this).parents('.cart-item').find('.p-sum').html("￥" + (cookieArr[i].num * price).toFixed(2));
-                    } else {
-                        cookieArr[i].num == 1 ? alert("数量最少为1") : cookieArr[i].num--;
-                        //给商品数量赋值
-                        $(this).siblings('.itxt').val(cookieArr[i].num)
-                        //取单价
-                        var price = $(this).parents('.cart-item').find('.p-price').html().substring(1);
-                         //给小计赋值 ，保留两位小数
-                        $(this).parents('.cart-item').find('.p-sum').html("￥" + (cookieArr[i].num * price).toFixed(2));
-                    }
-                    $.cookie("goods", JSON.stringify(cookieArr), {
-                        expires: 7
-                    })
-                }
-            }
-            // 这里for循环结束
-            isCheckAll()
-        })
+        
 
         //注：如果直接在按钮里输入数量，这个地方需要再进行一下处理
         $('.itxt').change(function () {

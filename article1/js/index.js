@@ -309,9 +309,12 @@ define(["animate","jquery", "jquery-cookie"], function (animate,$) {
             if(top1>577){
                 navpart.style.display='block';  
                 headerson.className='m-header-fixed';
-                $(".nav-arrow-container").on("click",function () {
+               /*  $(".nav-arrow-container").on("click",function () {
                     $(this).find('.nav-container').stop().toggle();
-                })
+                }) */
+                 $(".nav-arrow-container").hover(function () {
+                $(this).find('#nav-container').stop().slideToggle(500);
+        })
             }else{
                 navpart.style.display='none';
                 headerson.className='';

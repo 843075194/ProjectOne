@@ -163,7 +163,10 @@ b, strong, i, em, h1, h2, h3, h4, h5, h6 {
             width: 30px;
             height: 30px;
             top: 12px; }
-          .m-header .container1 .clearfix .nav-part .nav-arrow-container .nav-container {
+            /* .m-header .container1 .clearfix .nav-part .nav-arrow-container .nav-container-box{
+              display: none;
+            } */
+          .m-header .container1 .clearfix .nav-part .nav-arrow-container #nav-container {
             display: none;
             position: absolute;
             height: 458px;
