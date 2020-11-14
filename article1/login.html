@@ -37,6 +37,14 @@
             text-align: center;
             padding-left: 168px;
         }
+        .form-group{
+            position: relative;
+        }
+        .form-group #eye{
+            position: absolute;
+            top: -20px;
+            right: 1px;
+        }
     </style>
 </head>
 <body>
@@ -67,7 +75,9 @@
                     <input type="text" name="username" class="form-control" id="username">
                 </div>
                 <div class="form-group">
-                    <label for="password">密码：</label>
+                    <label for="password">密码：
+                        <img src="images/close.png" alt="" id="eye">
+                    </label>
                     <input type="text" name="password" class="form-control" id="password">
                 </div>
                 <div id="alert_info" class="alert alert-danger"></div>
@@ -76,6 +86,8 @@
             </div>
         </div>
     </div>
+    <img src="images/angel.gif" style="position: fixed; z-index: 114; width: 80px; height: 80px;" alt="" id="angel" >
+
 </body>
 
 </html>

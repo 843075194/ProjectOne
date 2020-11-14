@@ -8,7 +8,8 @@ require.config({
     "jquery-cookie": "jquery.cookie",
     index: "index",
     animate:'animate',
-    slide:'slide'
+    slide:'slide',
+    login:"login"
   },
   //jquery-cookie 是依赖于jquery开发
   shim: {
@@ -24,7 +25,7 @@ require.config({
 /*
   好处：模块和模块之间的关系清晰，所以的代码的，其中一个模块有问题，其他代码不受影响。
 */
-require(["index","slide"], function(index,slide){
+require(["index","slide",'login'], function(index,slide,login){
  index.header();
  index.download();
  index.navtoggle();
@@ -39,5 +40,5 @@ require(["index","slide"], function(index,slide){
  slide.countDown();
  slide.categorydownload();
  slide.returntop();
- 
+ //login.angel();
 })

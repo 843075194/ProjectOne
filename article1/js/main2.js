@@ -20,5 +20,6 @@ require.config({
 
 require(["login"], function(login){
     login.login();
+    login.eye()
     
 })

@@ -1,5 +1,5 @@
 //一个模块实现一个块的功能
-define(["animate","jquery", "jquery-cookie"], function (animate,$) {
+define(["animate", "jquery", "jquery-cookie"], function (animate, $) {
     /* 登陆菜单栏简单切换 */
     function header() {
         $(".top").hover(function () {
@@ -50,7 +50,7 @@ define(["animate","jquery", "jquery-cookie"], function (animate,$) {
             }
         })
     }
-    
+
     function download11() {
         $.ajax({
             type: "get",
@@ -145,7 +145,7 @@ define(["animate","jquery", "jquery-cookie"], function (animate,$) {
             //小圆点按钮的切换
             aBtns.removeClass("active").eq(iNow).addClass("active");
         }
-        
+
         //添加鼠标移入移出
         $(".swiper-wrapper,.swiper-buttonnext span,.swiper-buttonprev span").mouseenter(function () {
             clearInterval(timer);
@@ -212,7 +212,7 @@ define(["animate","jquery", "jquery-cookie"], function (animate,$) {
                 console.log(arr);
                 var str = ``;
                 for (var i = 0; i < arr.length; i++) {
-                   str += `
+                    str += `
                     <div class="swiper-slide">
                         <div class="bigtrap-img-tag-container">
                             <div class="small-item-img">
@@ -237,90 +237,90 @@ define(["animate","jquery", "jquery-cookie"], function (animate,$) {
                 $('.p-trap-wrap').find('.aaa').html(str);
                 $('.h-new-sec').find('.swiper-wrapper').html(str);
             },
-            error:function (msg) {  
-                console.log(msg);  
+            error: function (msg) {
+                console.log(msg);
             }
         })
     }
 
     function containertab() {
-        var num =0;
+        var num = 0;
         var swiper = document.getElementsByClassName('swiper-wrapper aaa')
         $('.swiper-buttonnext1 .a,.swiper-buttonprev1 .b').on("click", function () {
-             if(this.className == "iconfont a"){
-                 num--;
-             }else{
-                 num++;
-             }
-             //console.log(num); 
-             if(num <=0){
-                num=0;
-                $(".p-trap-wrap .swiper-buttonnext1 span,.p-trap-wrap .swiper-buttonprev1 span").css('color','gray');
-                $(".p-trap-wrap .swiper-wrapper").css('left',0);
+            if (this.className == "iconfont a") {
+                num--;
+            } else {
+                num++;
+            }
+            //console.log(num); 
+            if (num <= 0) {
+                num = 0;
+                $(".p-trap-wrap .swiper-buttonnext1 span,.p-trap-wrap .swiper-buttonprev1 span").css('color', 'gray');
+                $(".p-trap-wrap .swiper-wrapper").css('left', 0);
 
-             }else if(num >=4){
-                num=4;
-                $(".p-trap-wrap .swiper-buttonnext1 span,.p-trap-wrap .swiper-buttonprev1 span").css('color','gray')
-             }else{
-                $(".p-trap-wrap .swiper-wrapper").css('left',-num*271)
-                $(".p-trap-wrap .swiper-buttonnext1 span,.p-trap-wrap .swiper-buttonprev1 span").css('color','white')
+            } else if (num >= 4) {
+                num = 4;
+                $(".p-trap-wrap .swiper-buttonnext1 span,.p-trap-wrap .swiper-buttonprev1 span").css('color', 'gray')
+            } else {
+                $(".p-trap-wrap .swiper-wrapper").css('left', -num * 271)
+                $(".p-trap-wrap .swiper-buttonnext1 span,.p-trap-wrap .swiper-buttonprev1 span").css('color', 'white')
 
-             }
-             console.log(num); 
+            }
+            console.log(num);
         });
     }
-        function containertab1() {
-            var num =0;
-            var swiper = document.getElementsByClassName('swiper-wrapper aaa')
-            $('.swiper-buttonnext1 .c,.swiper-buttonprev1 .d').on("click", function () {
-                 if(this.className == "iconfont c"){
-                     num--;
-                 }else{
-                     num++;
-                 }
-                 //console.log(num); 
-                 if(num <=0){
-                    num=0;
-                    $(".h-new-sec .swiper-buttonnext1 span,.h-new-sec .swiper-buttonprev1 span").css('color','gray');
-                    $(".h-new-sec .swiper-wrapper").css('left',0);
-    
-                 }else if(num >=4){
-                    num=4;
-                    $(".h-new-sec .swiper-buttonnext1 span,.h-new-sec .swiper-buttonprev1 span").css('color','gray')
-                    $(".h-new-sec .swiper-wrapper").css('left',-num*271)
-                 }else{
-                    $(".h-new-sec .swiper-wrapper").css('left',-num*271)
-                    $(".h-new-sec .swiper-buttonnext1 span,.h-new-sec .swiper-buttonprev1 span").css('color','white')
-    
-                 }
-                 console.log(num); 
-            });
-        
+    function containertab1() {
+        var num = 0;
+        var swiper = document.getElementsByClassName('swiper-wrapper aaa')
+        $('.swiper-buttonnext1 .c,.swiper-buttonprev1 .d').on("click", function () {
+            if (this.className == "iconfont c") {
+                num--;
+            } else {
+                num++;
+            }
+            //console.log(num); 
+            if (num <= 0) {
+                num = 0;
+                $(".h-new-sec .swiper-buttonnext1 span,.h-new-sec .swiper-buttonprev1 span").css('color', 'gray');
+                $(".h-new-sec .swiper-wrapper").css('left', 0);
 
-      }
-      /* 顶部通栏 topnav */
-      function topnav() { 
+            } else if (num >= 4) {
+                num = 4;
+                $(".h-new-sec .swiper-buttonnext1 span,.h-new-sec .swiper-buttonprev1 span").css('color', 'gray')
+                $(".h-new-sec .swiper-wrapper").css('left', -num * 271)
+            } else {
+                $(".h-new-sec .swiper-wrapper").css('left', -num * 271)
+                $(".h-new-sec .swiper-buttonnext1 span,.h-new-sec .swiper-buttonprev1 span").css('color', 'white')
+
+            }
+            console.log(num);
+        });
+
+
+    }
+    /* 顶部通栏 topnav */
+    function topnav() {
         var navpart = document.querySelector('.nav-part');
         var headerson = document.querySelector('.m-header>div')
-        window.onscroll=function(){
+        window.onscroll = function () {
             //获取当前滚动距离
-           var top1=document.body.scrollTop || document.documentElement.scrollTop;
+            var top1 = document.body.scrollTop || document.documentElement.scrollTop;
             // console.log(top1);
-            if(top1>577){
-                navpart.style.display='block';  
-                headerson.className='m-header-fixed';
-               /*  $(".nav-arrow-container").on("click",function () {
-                    $(this).find('.nav-container').stop().toggle();
-                }) */
-                 $(".nav-arrow-container").hover(function () {
-                $(this).find('#nav-container').stop().slideToggle(500);
-        })
-            }else{
-                navpart.style.display='none';
-                headerson.className='';
+            if (top1 > 577) {
+                navpart.style.display = 'block';
+                headerson.className = 'm-header-fixed';
+                /*  $(".nav-arrow-container").on("click",function () {
+                     $(this).find('.nav-container').stop().toggle();
+                 }) */
+                $(".nav-part").hover(function () {
+                    $(this).find('#nav-container').stop().slideToggle(500);
+                })
+            } else {
+                navpart.style.display = 'none';
+                headerson.className = '';
             }
         }
-       }
+    }
 
 
     return {

@@ -53,7 +53,7 @@ define(["jquery"],function($) {
             var bigY = maskY * 3;
            
             $('.bigImg').css('left',-bigX);
-            $('.bigImg').css('top',-bigY)
+            $('.bigImg').css('top',-bigY);
     
         })
     }

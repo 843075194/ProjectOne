@@ -1,0 +1,623 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0px;
+  padding: 0px;
+  font: 14px "微软雅黑";
+}
+
+a, span {
+  display: inline-block;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.commonTitle {
+  color: white;
+  font-size: 80px;
+  line-height: 0.8;
+  font-weight: bold;
+  letter-spacing: -5px;
+}
+
+#wrap {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  #header {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      width: 200px;
+      height: 60px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .music{
+      width: 14px;
+      height: 14px;
+      background: url("../images/musicon.gif") no-repeat;
+      position: relative;
+      left: -195px;
+      top: 40px;
+    }
+    .nav {
+      width: 360px;
+      height: 60px;
+      display: flex;
+
+      .active {
+        background-color: #fc0;
+      }
+      li {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        color: white;
+        &:hover{
+          background-color: #fc0;
+        }
+      }
+    }
+  }
+}
+
+#content {
+  width: 100%;
+  overflow: hidden;
+
+  .list {
+    width: 100%;
+    position: relative;
+    transition: 1s top;
+
+    li {
+      background-color: pink;
+      position: relative;
+    }
+
+    .one {
+      background: url("../images/s1.jpg") no-repeat center center;
+      text-align: center;
+      height: 100%;
+
+      .commonTitle {
+        padding: 40px 0px 0px 0px;
+      }
+      .one1{
+        transition: 1s transform;
+      }
+      .one2{
+        transition: 1s transform;
+      }
+      .one3 {
+        width: 600px;
+        height: 400px;
+        margin: 100px auto 0px;
+        //border: 4px solid #262b2e;
+        //box-shadow: 5px 10px 10px rgba(144, 134, 134, 0.5);
+        //border-radius: 10px;
+        transition: 1s opacity ,1s transform;
+        img {
+          left: 0px;
+          position: absolute;
+          visibility: hidden;
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+          width: 100%;
+          height: 100%;
+        }
+        /*从左往右 leftHide  rightShow*/
+        > img.leftHide {
+          /*最终不可见*/
+          visibility: hidden;
+          animation: 1s leftHide 1 linear;
+        }
+
+        > img.rightShow {
+          /*最终可见*/
+          visibility: visible;
+          animation: 1s rightShow 1 linear;
+        }
+
+        /*从右外左 leftShow rightHide*/
+
+        > img.leftShow {
+          /*最终可见*/
+          visibility: visible;
+          animation: 1s leftShow 1 linear;
+        }
+
+        > img.rightHide {
+          /*最终不可见*/
+          visibility: hidden;
+          animation: 1s rightHide 1 linear;
+        }
+        img.active{
+          visibility: visible;
+        }
+      }
+
+      .nav{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0px auto;
+        display: flex;
+        left: 45%;
+        bottom: 40px;
+        transition: 1s transform;
+        li{
+          width: 14px;
+          height: 14px;
+          margin-left: 5px;
+          border: 1px solid black;
+          border-radius: 50%;
+          transition: 1s background-color;
+        }
+        .active{
+        background-color: black;
+        }
+      }
+    }
+
+    .two {
+      background: url("../images/s2.jpg") center center;
+
+      .two1 {
+        > .two1_list {
+          width: 837px;
+          height: 437px;
+          display: flex;
+          position: absolute;
+          margin: 50px 10px 0px 50px;
+
+          li {
+            width: 259px;
+            height: 310px !important;
+            margin-left: 20px;
+            text-align: center;
+            transition: 1s transform;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+
+            span {
+              margin-top: 30px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .two2 {
+        width: 180px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        border-right: 2px solid;
+        padding-right: 10px;
+        text-align: right;
+        z-index: 2;
+        transition: 1s transform;
+
+        h1 {
+          font-size: 34px;
+          color: #333;
+          font-weight: 100;
+          padding: 0px 0 20px 0px;
+        }
+
+        span {
+          padding: 5px;
+        }
+      }
+
+      .two3 {
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        right: 50px;
+        bottom: 0px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .two4{
+        width: 500px;
+        height: 336px;
+        position: absolute;
+        bottom: 0px;
+        right: 300px;
+        z-index: 1;
+        background: url("../images/lufeiqc.png") no-repeat;
+        animation: 15s luFei infinite;
+        //transition: 1s animation;
+      }
+
+    }
+
+    .three {
+      background: url("../images/s3.jpg") no-repeat center center;
+
+      .three1 {
+        > .three1_list {
+          width: 837px;
+          height: 437px;
+          display: flex;
+          position: absolute;
+          margin: 50px 10px 0px 650px;
+
+          li {
+            width: 259px;
+            height: 310px !important;
+            margin-left: 20px;
+            text-align: center;
+            transition: 1s transform;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+
+            span {
+              margin-top: 30px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .three2 {
+        width: 250px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        border-left: 2px solid;
+        padding-left: 10px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s transform;
+
+        h1 {
+          font-size: 34px;
+          color: #333;
+          font-weight: 100;
+          padding: 0px 0 20px 0px;
+        }
+
+        span {
+          padding: 5px;
+        }
+      }
+
+      .three3 {
+        width: 532px;
+        height: 500px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .four {
+      background: url("../images/s4.jpg") center center;
+
+      .four1 {
+        > .four1_list {
+          width: 837px;
+          height: 437px;
+          display: flex;
+          position: absolute;
+          margin: 50px 10px 0px 50px;
+
+          li {
+            width: 259px;
+            height: 310px !important;
+            margin-left: 20px;
+            text-align: center;
+            transition: 1s transform, 1s opacity;
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 10%;
+            }
+
+            span {
+              margin-top: 30px;
+              text-align: center;
+              display: inline-block;
+            }
+          }
+        }
+      }
+
+      .four2 {
+        width: 180px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        border-right: 2px solid;
+        padding-right: 10px;
+        text-align: right;
+        z-index: 2;
+        transition: 1s opacity;
+        h1 {
+          font-size: 34px;
+          color: #333;
+          font-weight: 100;
+          padding: 0px 0 20px 0px;
+        }
+
+        span {
+          padding: 5px;
+        }
+      }
+
+      .four3 {
+        width: 417px;
+        height: 485px;
+        position: absolute;
+        background: url("../images/nameidar.png") no-repeat;
+        right: 0px;
+        bottom: 0px;
+
+      }
+    }
+
+    .five {
+      background: url("../images/s5.jpg") center center;
+
+      .five1 {
+        > .five1_list {
+          width: 837px;
+          height: 437px;
+          display: flex;
+          position: absolute;
+          margin: 50px 10px 0px 650px;
+
+          li {
+            width: 259px;
+            height: 310px !important;
+            margin-left: 20px;
+            text-align: center;
+            transition: 1s transform;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+
+            span {
+              margin-top: 30px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .five2 {
+        width: 250px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        border-left: 2px solid;
+        padding-left: 10px;
+        text-align: right;
+        z-index: 2;
+        transition: 1s transform;
+        h1 {
+          font-size: 34px;
+          color: #333;
+          font-weight: 100;
+          padding: 0px 0 20px 0px;
+        }
+
+        span {
+          padding: 5px;
+        }
+      }
+
+      .five3 {
+        width: 417px;
+        height: 400px;
+        position: absolute;
+        left: 52px;
+        bottom: 0px;
+        box-shadow: 1px 1px 4px #999999;
+        border-radius: 10px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .six {
+      background: url("../images/s2.jpg") center center;
+
+      .six1 {
+        > .six1_list {
+          width: 837px;
+          height: 437px;
+          display: flex;
+          position: absolute;
+          margin: 50px 10px 0px 50px;
+
+          li {
+            width: 259px;
+            height: 310px !important;
+            margin-left: 20px;
+            text-align: center;
+            box-shadow: 4px 4px 10px rgba(186, 118, 148, 0.6);
+            transition: 1s transform;
+            img {
+              width: 100%;
+              height: 100%;
+
+            }
+
+            span {
+              margin-top: 30px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .six2 {
+        width: 250px;
+
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        padding-right: 10px;
+        border-right: 2px solid;
+        text-align: right;
+        z-index: 2;
+        transition: 1s transform;
+        h1 {
+          font-size: 34px;
+          color: #333;
+          font-weight: 100;
+          padding: 0px 0 20px 0px;
+        }
+
+        span {
+          padding: 5px;
+        }
+      }
+
+      .six3 {
+        width: 641px;
+        height: 325px;
+        position: absolute;
+        right: -50px;
+        bottom: 0px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .dot{
+    width: 12px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    li{
+      width: 12px;
+      height: 12px;
+      margin-top: 5px;
+      border-radius: 50%;
+      border: 1px solid black;
+      transition: 1s background-color;
+      a{
+        width: 100%;
+        height: 100%;
+      }
+      &:hover{
+        background-color: black;
+      }
+    }
+    li.active{
+      background-color: black;
+      a{
+        cursor: default;
+      }
+    }
+  }
+}
+
+@keyframes luFei {
+  0% {
+    transform: translateX(0) rotateY(0);
+  }
+  49% {
+    transform: translateX(-500px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(-500px) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(0) rotateY(180deg);
+  }
+}
+
+
+/*设置轮播图动画     从左往右 leftHide  rightShow*/
+@keyframes leftHide {
+  0% {
+    visibility: visible;
+  }
+  50% {
+    /*设置左平移和Y轴旋转加放大*/
+    transform: translateX(-40%) rotateY(30deg) scale(.8);
+  }
+  100% {
+    /*回到原来位置,并设置Z轴以隐藏*/
+    transform: translateZ(-200px);
+  }
+}
+
+@keyframes rightShow {
+  0% {
+    /*一开始为隐藏，到后面会全部显示*/
+    visibility: hidden;
+    transform: translateZ(-200px);
+  }
+  50% {
+    transform: translateX(40%) rotateY(-30deg) scale(0.8);
+  }
+  100% {
+    /*回到原来位置*/
+  }
+}
+
+/*设置轮播图动画     从右外左 leftShow  rightHind*/
+@keyframes leftShow {
+  0% {
+    visibility: hidden;
+    transform: translateZ(-200px);
+  }
+  50% {
+    transform: translateX(-40%) rotateY(30deg) scale(0.8);
+  }
+  100% {
+
+  }
+}
+
+@keyframes rightHide {
+  0% {
+    visibility: visible;
+  }
+  50% {
+    transform: translateX(40%) rotateY(-30deg) scale(0.8);
+  }
+  100% {
+    transform: translateZ(-200px);
+  }
+}
